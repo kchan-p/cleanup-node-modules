@@ -2,7 +2,7 @@
 
 windows向け：一定期間更新していないプロジェクトのnode_modulesを削除するPowerShellスクリプト<br>
 
-https://note.affi-sapo-sv.com/cleanup-node-modules.php<br>
+https://note.affi-sapo-sv.com/nodejs-delete-nodemodules.php<br>
 フォルダ内の複数プロジェクトからnode_modulesを検索して、プロジェクト内のファイルを14日以上更新していないときnode_modulesを削除する。
 
 ---

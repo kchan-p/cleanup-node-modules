@@ -7,37 +7,36 @@ https://note.affi-sapo-sv.com/nodejs-delete-nodemodules.php<br>
 
 ---
 
-## 使用方法
-
-使用方法１：
+## 使用方法1
 
 1) 全てのファイルを対象フォルダ内に配置<br>
 2) check_node_modules.batを実行して、削除候補のnode_modulesを確認<br>
 3) cleanup_node_modules.batを実行してnode_modulesを削除<br>
 
-使用方法２：
+## 使用方法2
 
 次の引数を指定して、check_node_modules.batまたはcleanup_node_modules.batを実行
 
--delete 削除モード
--d 対象日数（1以上）デフォルト：14
--f 対象フォルダ デフォルト：現在のフォルダ
--force 確認しないで削除
--h ヘルプ表示
+-delete 削除モード<br>
+-d 対象日数（1以上）デフォルト：14<br>
+-f 対象フォルダ デフォルト：現在のフォルダ<br>
+-force 確認しないで削除<br>
+-h ヘルプ表示<br>
 
 ※cleanup_node_modules.batは-delete指定済み
 
-使用方法３：
+## 使用方法3
 
-使用方法３の引数を使用して、cleanup_node_modules.ps1（PowerShellスクリプト）を実行
+使用方法2の引数を使用して、cleanup_node_modules.ps1（PowerShellスクリプト）を実行
 
-例：
-(Windows PowerShell)
-powershell -File cleanup_node_modules.ps1 -delete
+例：<br>
+(Windows PowerShell)<br>
+powershell -File cleanup_node_modules.ps1 -delete<br>
 
 または
-(PowerShell バージョン6以降)
-pwsh -File cleanup_node_modules.ps1 -delete
+
+(PowerShell バージョン6以降)<br>
+pwsh -File cleanup_node_modules.ps1 -delete<br>
 
 ## 作者
 
